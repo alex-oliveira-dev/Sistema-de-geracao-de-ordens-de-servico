@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/styles_consultar_historico.css" media="screen" />
+    <title>HSO TECNOLOGIA EM SISTEMAS</title>
+</head>
+
+<body>
+    <h1>HISTÓRICO DE MANUTENÇÃO</h1>
+    <form action="/buscar_no_banco_de_dados" metodh="POST">
+        <div>
+            <h3>PREENCHA OS CAMPOS ABAIXO:</h3>
+
+            <div>
+                <p id="pesquisar_os">NÚMERO DA O.S:</p>
+                <input type="text" id="caixa_pesquisar_os" >
+            </div>
+            <div>
+                <p id="pesquisar_prefixo">PREFIXO/PLACA:</p>
+                <input type="text" id="caixa_pesquisar_prefixo" required name="pesquisar_histórico">
+            </div>
+
+            <div>
+                <button type="submit" id="btn_consultar_historico" name="buscar_no_banco_de_dados">CONSULTAR
+                    HISTÓRICO</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>

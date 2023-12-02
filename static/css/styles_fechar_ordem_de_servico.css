@@ -1,0 +1,84 @@
+body {
+    display: center blockS;
+    overflow-x: hidden;
+    min-width: 320px;
+    max-width: 1024px;
+    background-color: #001F3F
+}
+
+h3 {
+    margin-top: 7%;
+    margin-left: 35%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+*[id="prefixo pagina fechar ordem"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: 60px;
+    top: 15%;
+
+}
+
+*[id="caixa prefixo pagina fechar ordem"] {
+
+    height: 25px;
+    width: 200px;
+    position: relative;
+    top: 0px;
+    left: 57%;
+    color: black;
+    font-size: 25px;
+    margin: center auto;
+    display: inline-block;
+}
+
+
+*[id="data de saida"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 35%;
+}
+
+*[id="caixa de data de saida"] {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 59%;
+}
+
+
+*[id="horario de saida"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+margin-left: 35%;
+}
+
+*[id="caixa de horario de saida"] {
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 62%;
+
+}
+
+*[id="botao de fechar ordem"] {
+    background-color: #2ECC40;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    height: 40px;
+    width: 380px;
+    margin: 50px -200px;
+    position: relative;
+    top: 50%;
+    left: 68%;
+
+}

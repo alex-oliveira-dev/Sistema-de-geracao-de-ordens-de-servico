@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HSO TECNOLOGIA EM SISTEMAS</title>
+</head>
+
+<body>
+    <h1>ORDENS DE SERVIÇO FECHADAS</h1>
+
+    <form>
+
+        <div class="container">
+            <table class="table table-bordered table-dark">
+                <div>
+                    {% if tables %}
+                    {% for table in tables %}
+                    {{ table|safe }}
+                    {% endfor %}
+                    {% else %}
+                    <p>Nenhum dado disponível.</p>
+                    {% endif %}
+                    <td>
+                        <a href="#">Fechar O.S</a>
+                        <a href="#">Editar O.S</a>
+                    </td>
+                </div>
+            </table>
+
+        </div>
+    </form>
+
+</body>
+
+</html>

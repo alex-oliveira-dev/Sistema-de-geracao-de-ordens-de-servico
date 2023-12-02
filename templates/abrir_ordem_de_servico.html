@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widp=device-widp, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/styles_abrir_ordem_de_servico.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title>HSO TECNOLOGIA EM SISTEMAS</title>
+
+
+</head>
+
+
+<body>
+    <div class="container" id="tela fixa ">
+        <h2 id="titulo">ABRIR ORDEM DE SERVIÇO</h2>
+        <div>
+            <form action="/enviar_para_manutencao" method="POST">
+                <div>
+                    <p id="prefixo" >PREFIXO/PLACA:</p>
+                    <input type="text" required="required" id="caixa prefixo" required name="prefixo">
+                </div>
+                <div>
+                    <p id="nome da empresa"] >NOME DA EMPRESA:</p>
+                    <input type="text" required="required" id="caixa nome da empresa" required name="nome_empresa">
+                </div>
+                <div>
+                    <p id="nome do cliente" >NOME DO CLIENTE:</p>
+                    <input type="text" required="required" id="caixa nome do cliente" required name="nome_do_cliente">
+                </div>
+                <div>
+                    <p id="numero de telefone" >TELEFONE PARA CONTATO:</p>
+                    <input type="tel" required="required" id="caixa numero de telefone" required name="numero_telefone">
+                </div>
+                <div>
+                    <p id="data de chegada" >DATA DE CHEGADA:</p>
+                    <input type="date" required="required" id="caixa da data de chegada" required name="data_de_chegada">
+                </div>
+                <div>
+                    <p id="horario de chegada" >HORARIO DE CHEGADA:</p>
+                    <input type="time" required="required" id="caixa do horario de chegada" required name="horario_de_chegada">
+                </div>
+                <div>
+                    <p id="servicos" >SERVIÇOS A SEREM EXECUTADOS:</p>
+                    <select name="servicos" id="caixa servicos a serem executados" required>
+                        <option value="AFERIÇÃO DE CRONOTACÓGRAFOS">AFERIÇÃO DE CRONOTACÓGRAFOS</option>
+                        <option value="TACÓGRAFO">TACÓGRAFO</option>
+                        <option value="ANJO DA GUARDA">ANJO DA GUARDA</option>
+                        <option value="ELÉTRICA">ELÉTRICA</option>
+                        <option value="ELEVADOR">ELEVADOR</option>
+                        <option value="PAINEL LUMINOSO">PAINEL LUMINOSO (LETREIRO)</option>
+                        <option value="PNEUMÁTICA">PNEUMÁTICA</option>
+                    </select>
+                </div>
+                <div>
+                    <p id="defeitos alegados" >DEFEITOS ALEGADOS:</p>
+                    <input type="text" id="caixa defeitos alegados" name="defeitos_alegados">
+                </div>
+                <div>
+                    <button type="submit" id="btn abrir ordem de servico" name="abrir_ordem">EMITIR</button>
+                </div>
+            </form>
+            
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
+

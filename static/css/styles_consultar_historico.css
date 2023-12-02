@@ -1,0 +1,68 @@
+body {
+    display: center block;
+    overflow-x: hidden;
+    min-width: 320px;
+    max-width: 1024px;
+    background-color: #001F3F
+}
+h1 {
+    color:#FFFFFF;
+    font-size: 43px;
+    margin-left: 34%;
+    text-align: center block;
+
+}
+
+h3 {
+    margin-top: 70px;
+    color: white;
+    font-size: 30px;
+    margin-left: 40%;
+    text-align: center block;
+}
+*[id="pesquisar_os"]{
+    margin-top: 80px;
+    height: 25px;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+    margin-left: 53%;
+    text-align: center block;
+}
+
+*[id="caixa_pesquisar_os"]{
+    height: 25px;
+    width: 300px;
+    color: black;
+    font-size: 30px;
+    margin-left: 50%;
+    text-align: center block;
+}
+*[id="pesquisar_prefixo"]{
+    height: 25px;
+    width: 300px;
+    color: white;
+    font-size: 30px;
+    margin-left: 53%;
+    text-align: center block;
+}
+*[id="caixa_pesquisar_prefixo"]{
+    height: 25px;
+    width: 300px;
+    color: black;
+    font-size: 30px;
+    margin-left: 50%;
+    text-align: center block;
+}
+
+*[id="btn_consultar_historico"] {
+
+    width: 250px;
+    height: 60px;
+    margin-left: 53%;
+    margin-top: 3%;
+    color: black;
+    background-color: #2ECC40;
+    font-size: 20px;
+
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/styles_fechar_ordem_de_servico.css" media="screen" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, max-scale=1.0">
+    <title> HSO TECNOLOGIA EM SISTEMAS </title>
+</head>
+
+<body>
+
+
+
+    <div>
+        <p>
+        <h3>Fechar Ordem de Serviço</h3>
+        </p>
+        <form action="/fechar_ordem_de_servico">
+            <div>
+                <p id="prefixo pagina fechar ordem"> PREFIXO/PLACA:</p>
+
+                <input id="caixa prefixo pagina fechar ordem" type="text" required="required"
+                    name="caixa do Prefixo"></input>
+            </div>
+
+            <div>
+                <p id="data de saida">Data de Saída:</p>
+                <input id="caixa de data de saida" type="date" name="dataSaida"></input>
+
+            </div>
+            <div>
+                <p id="horario de saida">Horário de Saída:</p>
+                <input id="caixa de horario de saida" type="time" name="horarioSaida"></input>
+
+            </div>
+
+
+
+            <div>
+                <button id="botao de fechar ordem" name="">FECHAR ORDEM DE
+                    SERVIÇO</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>

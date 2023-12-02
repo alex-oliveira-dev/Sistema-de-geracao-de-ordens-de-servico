@@ -1,0 +1,213 @@
+body {
+    display: center block;
+    overflow-x: hidden;
+    min-width: 320px;
+    max-width: 1024px;
+    background-color:#001F3F
+}
+
+div {
+    min-width: 768px;
+    max-width: 1024px;
+
+}
+
+*[id="tela fixa"] {
+  
+    max-width: 800px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    margin-left: 30%;
+    text-align: center block;
+}
+
+*[id="prefixo"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -5%;
+    margin-top: 100px;
+
+}
+
+*[id="caixa prefixo"] {
+    
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: -70px;
+    left: 60%;
+    color: black;
+    font-size: 25px;
+    margin: center auto;
+    display: inline-block;
+}
+
+*[id="nome da empresa"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -10%;
+    margin-top: -50px;
+
+}
+
+*[id="caixa nome da empresa"] {
+   
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: -70px;
+    left: 60%;
+    color: black;
+    font-size: 25px;
+    margin: center auto;
+    display: inline-block;
+    
+}
+
+*[id="nome do cliente"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -9%;
+    margin-top: -50px;
+}
+
+*[id="caixa nome do cliente"] {
+    
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: -69px;
+    left: 60%;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+}
+
+*[id="numero de telefone"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -19.7%;
+    margin-top: -46px;
+}
+*[id="caixa numero de telefone"] {
+    
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: -70px;
+    left: 60%;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+}
+
+*[id="data de chegada"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -45px;
+    margin-left: -10%;
+    position: relative;
+}
+
+*[id="caixa da data de chegada"] {
+    
+    top: -65px;
+    margin-left: 60%;
+    font-size: 25px;
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+*[id="horario de chegada"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -13%;
+    margin-top: -40px;
+    margin-right: 3%;
+
+}
+
+*[id="caixa do horario de chegada"] {
+   
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: -65px;
+    margin-left: 60%;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+*[id="servicos"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -42%;
+    margin-top: -50px;
+    margin-right: -12%;
+
+}
+
+*[id="caixa servicos a serem executados"] {
+   
+    height: 30px;
+    width: 400px;
+    position: relative;
+    top: -65px;
+    left: 60%;
+    color: black;
+    font-size: 20px;
+    display: inline-block;
+}
+
+*[id="defeitos alegados"] {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin-left: -18.3%;
+    margin-top: -40px;
+    margin-right: -5%;
+}
+
+
+*[id="caixa defeitos alegados"] {
+
+    height: 25px;
+    width: 400px;
+    position: relative;
+    top: -65px;
+    left: 60%;
+    color: black;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+*[id="btn abrir ordem de servico"] {
+
+    background-color: #2ECC40;
+    margin-left: 60%;
+    margin-top: -50%;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+/* .container {
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows: 50px 50px;
+} */

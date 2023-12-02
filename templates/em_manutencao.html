@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="/static/css/styles_veiculos_em_manutencao.css" media="screen" />
+    <title>VEÍCULOS EM MANUTENÇÃO </title>
+</head>
+
+<body>
+    <h1> VEÍCULOS EM MANUTENÇÃO </h1>
+
+
+    <form>
+
+        <div class="container">
+            <table id="tabela_em_manutencao" class="table table-secondary">
+                <div>
+                    <td>AÇÕES</td>
+                    <td>
+                        <a href="#">FECHAR O.S</a>
+
+                    </td>
+                    <td>
+                        <a href="#">PREENCHER O.S</a>
+                    </td>
+
+                    {% if tables %}
+                    {% for table in tables %}
+                    {{ table|safe }}
+
+                    {% endfor %}
+                    {% else %}
+                    <p>Nenhum dado disponível.</p>
+                    {% endif %}
+                </div>
+            </table>
+
+        </div>
+    </form>
+</body>
+
+</html>
