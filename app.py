@@ -10,7 +10,7 @@ app = Flask(__name__, template_folder="templates")
 db = pymysql.connect(
     host="localhost",
     user="root",
-    password="M@caubas20",
+    password="",
     database="manutenção",
     charset="utf8mb4",
     cursorclass=pymysql.cursors.DictCursor,
